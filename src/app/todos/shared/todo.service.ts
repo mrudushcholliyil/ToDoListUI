@@ -10,7 +10,7 @@ export class TodoService {
   constructor(private http:HttpClient) { }
   list: Item[] = [];
   public todoItem: Item=new Item();
-  readonly baseURL='https://localhost:29921/api/ToDos';
+  readonly baseURL='https://localhost:29921/api/ToDoItem';
   
 
   addToDoItem()
